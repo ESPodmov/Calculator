@@ -12,7 +12,7 @@ class CalculatorTest {
 
     @BeforeEach
     void create() {
-        this.calc = new Calculator();
+        calc = new Calculator();
     }
 
     @ParameterizedTest
