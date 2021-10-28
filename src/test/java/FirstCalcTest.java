@@ -1,18 +1,16 @@
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CalculatorTest {
+class FirstCalcTest {
 
-    protected Calculator calc;
+    protected FirstCalc calc;
 
     @BeforeEach
     void create() {
-        calc = new Calculator();
+        calc = new FirstCalc();
     }
 
     @ParameterizedTest
