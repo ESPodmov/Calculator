@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CalculatorTest" time="0.235" tests="28" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CalculatorTest" time="0.229" tests="28" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\egor_\AppData\Local\Temp\surefire14600046996320718673\surefirebooter17429130197480644217.jar C:\Users\egor_\AppData\Local\Temp\surefire14600046996320718673 2021-10-28T17-45-52_672-jvmRun1 surefire6662690068048937174tmp surefire_02761556225470527704tmp"/>
+    <property name="sun.java.command" value="C:\Users\egor_\AppData\Local\Temp\surefire4660025844534990760\surefirebooter1089398692989307393.jar C:\Users\egor_\AppData\Local\Temp\surefire4660025844534990760 2021-10-28T17-57-01_859-jvmRun1 surefire8142415792833739194tmp surefire_02306906844817373997tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Java Cases\Языки и методы программирования\Calculator\target\test-classes;D:\Java Cases\Языки и методы программирования\Calculator\target\classes;C:\Users\egor_\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\egor_\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\egor_\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\egor_\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\egor_\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\egor_\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\egor_\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\egor_\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\egor_\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\egor_\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\egor_\AppData\Local\Temp\surefire14600046996320718673\surefirebooter17429130197480644217.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\egor_\AppData\Local\Temp\surefire4660025844534990760\surefirebooter1089398692989307393.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
@@ -55,32 +55,32 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="divisionTest{double}[1]" classname="CalculatorTest" time="0.072"/>
+  <testcase name="divisionTest{double}[1]" classname="CalculatorTest" time="0.066"/>
   <testcase name="divisionTest{double}[2]" classname="CalculatorTest" time="0.001"/>
   <testcase name="divisionTest{double}[3]" classname="CalculatorTest" time="0.001"/>
   <testcase name="divisionTest{double}[4]" classname="CalculatorTest" time="0.001"/>
-  <testcase name="divisionTest{double}[5]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="divisionTest{double}[5]" classname="CalculatorTest" time="0.002"/>
   <testcase name="divisionTest{double}[6]" classname="CalculatorTest" time="0.001"/>
-  <testcase name="divisionTest{double}[7]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="divisionTest{double}[7]" classname="CalculatorTest" time="0.002"/>
   <testcase name="divisionTest{double}[8]" classname="CalculatorTest" time="0.001"/>
   <testcase name="divisionTest{double}[9]" classname="CalculatorTest" time="0.001"/>
-  <testcase name="divisionTest{double}[10]" classname="CalculatorTest" time="0"/>
+  <testcase name="divisionTest{double}[10]" classname="CalculatorTest" time="0.001"/>
   <testcase name="additionTest{double}[1]" classname="CalculatorTest" time="0.003"/>
   <testcase name="additionTest{double}[2]" classname="CalculatorTest" time="0.001"/>
   <testcase name="additionTest{double}[3]" classname="CalculatorTest" time="0.001"/>
-  <testcase name="additionTest{double}[4]" classname="CalculatorTest" time="0"/>
+  <testcase name="additionTest{double}[4]" classname="CalculatorTest" time="0.001"/>
   <testcase name="additionTest{double}[5]" classname="CalculatorTest" time="0.001"/>
-  <testcase name="additionTest{double}[6]" classname="CalculatorTest" time="0.002"/>
+  <testcase name="additionTest{double}[6]" classname="CalculatorTest" time="0.001"/>
   <testcase name="additionTest{double}[7]" classname="CalculatorTest" time="0.001"/>
-  <testcase name="additionTest{double}[8]" classname="CalculatorTest" time="0.001"/>
-  <testcase name="multiplicationTest{int}[1]" classname="CalculatorTest" time="0.005"/>
+  <testcase name="additionTest{double}[8]" classname="CalculatorTest" time="0"/>
+  <testcase name="multiplicationTest{int}[1]" classname="CalculatorTest" time="0.004"/>
   <testcase name="multiplicationTest{int}[2]" classname="CalculatorTest" time="0.001"/>
   <testcase name="multiplicationTest{int}[3]" classname="CalculatorTest" time="0.001"/>
-  <testcase name="multiplicationTest{int}[4]" classname="CalculatorTest" time="0.002"/>
-  <testcase name="multiplicationTest{int}[5]" classname="CalculatorTest" time="0"/>
-  <testcase name="multiplicationTest{int}[6]" classname="CalculatorTest" time="0"/>
-  <testcase name="multiplicationTest{int}[7]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="multiplicationTest{int}[4]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="multiplicationTest{int}[5]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="multiplicationTest{int}[6]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="multiplicationTest{int}[7]" classname="CalculatorTest" time="0"/>
   <testcase name="multiplicationTest{int}[8]" classname="CalculatorTest" time="0.001"/>
-  <testcase name="multiplicationTest{int}[9]" classname="CalculatorTest" time="0"/>
-  <testcase name="multiplicationTest{int}[10]" classname="CalculatorTest" time="0"/>
+  <testcase name="multiplicationTest{int}[9]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="multiplicationTest{int}[10]" classname="CalculatorTest" time="0.001"/>
 </testsuite>

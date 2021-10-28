@@ -14,5 +14,9 @@ public class Calculator {
     public double subtraction(double a, double b){
         return a - b;
     }
+
+    public double sin(double a){
+        return Math.sin(a);
+    }
 }
 
