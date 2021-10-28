@@ -47,11 +47,11 @@ class CalculatorTest {
         );
     }
 
-    @ParameterizedTest
-    @ValueSource(doubles = {45, 351, 34, 64, 334, 3, 4864, -54564, -546})
-    void testToFail(double number) {
-        assertSame(calc.divide(number, 2), number / 2.0, "This is different objects");
-    }
+//    @ParameterizedTest
+//    @ValueSource(doubles = {45, 351, 34, 64, 334, 3, 4864, -54564, -546})
+//    void testToFail(double number) {
+//        assertSame(calc.divide(number, 2), number / 2.0, "This is different objects");
+//    }
 }
 
 
